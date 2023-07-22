@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.range__circle-number{
+    transform: scale(.50);
+    
+}
+.range__input:hover + .range__progress .range__circle-number{
+    opacity: 1;
+    transform: scale(1) translate(-50%,-1rem) rotate(-45deg);
+
+}
